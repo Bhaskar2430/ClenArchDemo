@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{C2175B1F-08B8-4E95-B8DD-D1A6A26D3BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClainArch.Infra.Data", "ClainArch.Infra.Data\ClainArch.Infra.Data.csproj", "{BE7FF022-D008-46DA-866F-FE9BB7CA9A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClainArch.Infra.Data", "ClainArch.Infra.Data\ClainArch.Infra.Data.csproj", "{BE7FF022-D008-46DA-866F-FE9BB7CA9A93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{285473B7-B279-4BBB-9069-FAA4E8277A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{285473B7-B279-4BBB-9069-FAA4E8277A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Ioc", "CleanArch.Infra.Ioc\CleanArch.Infra.Ioc.csproj", "{66C8FBDB-DE84-4D16-B340-AE130B3A0835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{285473B7-B279-4BBB-9069-FAA4E8277A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{285473B7-B279-4BBB-9069-FAA4E8277A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{285473B7-B279-4BBB-9069-FAA4E8277A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C8FBDB-DE84-4D16-B340-AE130B3A0835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C8FBDB-DE84-4D16-B340-AE130B3A0835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C8FBDB-DE84-4D16-B340-AE130B3A0835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C8FBDB-DE84-4D16-B340-AE130B3A0835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{C2175B1F-08B8-4E95-B8DD-D1A6A26D3BAF} = {9F145E74-B602-4B5E-A65B-11AB777A36E2}
 		{BE7FF022-D008-46DA-866F-FE9BB7CA9A93} = {68055A16-A33B-4BCE-A5EF-1EE6C45BC5A8}
 		{285473B7-B279-4BBB-9069-FAA4E8277A00} = {E0574F88-5A7C-455A-8094-C8F6EED5E5B7}
+		{66C8FBDB-DE84-4D16-B340-AE130B3A0835} = {DD1A7D5D-F675-4F7B-BC50-E4F6E3BC7BB5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D7ACC16-9FBB-4890-A73C-F1B77BA27202}
