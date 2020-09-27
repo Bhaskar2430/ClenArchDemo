@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{68055A16-A33B-4BCE-A5EF-1EE6C45BC5A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{8E1116A7-5ED9-4C89-A9C1-C30E7429057C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{8E1116A7-5ED9-4C89-A9C1-C30E7429057C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{C2175B1F-08B8-4E95-B8DD-D1A6A26D3BAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{C2175B1F-08B8-4E95-B8DD-D1A6A26D3BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
