@@ -4,6 +4,7 @@ using CleanArch.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using CleanArch.Domain.Models;
 
 namespace CleanArch.Application.Services
 {
@@ -20,6 +21,23 @@ namespace CleanArch.Application.Services
             return new CourseViewModel()
             {
                 Courses = _courseRepository.GetCourse()
+            };
+        }
+    }
+
+    public class OffersService : IOffersService
+    {
+        private IOffersRepository _offersRepository;
+
+        public OffersService(IOffersRepository offersRepository)
+        {
+            _offersRepository = offersRepository;
+        }
+        public OffersViewModel GetOffers()
+        {
+            return new OffersViewModel()
+            {
+                Offers = _offersRepository.GetOffers()
             };
         }
     }

@@ -11,4 +11,11 @@ namespace CleanArch.Domain.Models
         public string Description { get; set; }
         public string ImageUrl { get; set; }
     }
+
+    public class Offers
+    {
+        public int Id { get; set; }
+        public double Discount { get; set; }
+        
+    }
 }

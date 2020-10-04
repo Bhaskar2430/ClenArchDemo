@@ -9,4 +9,8 @@ namespace CleanArch.Domain.Interfaces
     {
         IEnumerable<Course> GetCourse();
     }
+    public interface IOffersRepository
+    {
+        IEnumerable<Offers> GetOffers();
+    }
 }

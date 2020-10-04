@@ -21,4 +21,18 @@ namespace ClainArch.Infra.Data.Repository
             return _context.Courses;
         }
     }
+
+    public class OffersRepository : IOffersRepository
+    {
+        private UniversityDbContext _context;
+
+        public OffersRepository(UniversityDbContext context)
+        {
+            _context = context;
+        }
+        public IEnumerable<Offers> GetOffers()
+        {
+            return _context.Offers;
+        }
+    }
 }

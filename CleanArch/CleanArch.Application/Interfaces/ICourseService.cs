@@ -9,4 +9,9 @@ namespace CleanArch.Application.Interfaces
     {
         public CourseViewModel GetCourses();
     }
+
+    public interface IOffersService
+    {
+        public OffersViewModel GetOffers();
+    }
 }

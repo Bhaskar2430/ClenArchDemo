@@ -1,0 +1,9 @@
+﻿@model CleanArch.Application.ViewModels.OffersViewModel;
+<div>
+    @foreach (var offer in Model.Offers)
+    {
+        <p>the The product of @offer.Id Discount is : @offer.Discount</p>
+    }
+</div>
+<h1>@ViewData["OfferTitle"]</h1>
+<p>Use this page to detail your site's Special Offers .....stay tuned!!!.</p>
